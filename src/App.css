@@ -150,7 +150,7 @@
   width: 100%;
   border-radius: 10px;
   margin-bottom: 1rem;
-  box-shadow:  4px 6px #b83636;
+  box-shadow:  4px 4px #b83636;
 
 }
 
@@ -313,6 +313,13 @@
   background-color: #f3f4f6;
   padding: 2rem;
 }
+.contact-container {
+  background-image: url('https://images.unsplash.com/photo-1580974928064-f0aeef70895a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlJTIwc3RvcmV8ZW58MHx8MHx8fDA%3D');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
 
 .contact-form {
   background-color: white;
@@ -320,8 +327,9 @@
   border-radius: 10px;
   box-shadow: 0 10px 20px rgb(189, 118, 118);
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
   text-align: center;
+  
   
   
 
