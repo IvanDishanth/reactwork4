@@ -1,3 +1,4 @@
+
 /* Navbar */
 .navbar {
   background-color: black;
@@ -135,6 +136,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
+  
 }
 
 .products .product-card {
@@ -150,7 +152,12 @@
   border-radius: 10px;
   margin-bottom: 1rem;
   box-shadow:  4px 4px #b83636;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
+}
+.products .product-card img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(235, 23, 23, 0.637);
 }
 
 .products .product-card h3 {
@@ -328,10 +335,12 @@
   width: 100%;
   max-width: 400px;
   text-align: center;
-  
-  
-  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.contact-form:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(189, 118, 118, 0.5);
 }
 
 .contact-form .badge {

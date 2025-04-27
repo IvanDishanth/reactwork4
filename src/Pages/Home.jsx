@@ -54,6 +54,7 @@ function Home() {
             </div>
         </section>
 
+        
         <footer className="footer">
             <div className="footer-container">
                 <p>&copy; 2025 Mobile Shop. All rights reserved</p>
